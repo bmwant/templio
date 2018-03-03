@@ -10,6 +10,7 @@ name = "pypi"
 aiohttp = "*"
 tox = "*"
 pytest = "*"
+"aiohttp-jinja2" = "*"
 
 
 [dev-packages]
