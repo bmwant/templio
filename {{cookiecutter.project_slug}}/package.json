@@ -1,0 +1,16 @@
+{
+    "name": "{{ cookiecutter.project_slug }}",
+    "version": "{{ cookiecutter.version }}",
+    "description": "{{ cookiecutter.project_short_description }}",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "{{ cookiecutter.full_name }}",
+    "license": "MIT",
+    "dependencies": {
+        "jquery": "^3.3.1",
+        "moment": "^2.20.1",
+        "siimple": "^3.0.0"
+    }
+}
