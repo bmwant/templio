@@ -11,6 +11,7 @@ aiohttp = "*"
 tox = "*"
 pytest = "*"
 "aiohttp-jinja2" = "*"
+click = "*"
+
 
 [dev-packages]
-

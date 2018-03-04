@@ -7,7 +7,7 @@ __email__ = '{{ cookiecutter.email }}'
 __version__ = '{{ cookiecutter.version }}'
 
 
-import views
+from . import views
 
 
 def setup_routes(app):
