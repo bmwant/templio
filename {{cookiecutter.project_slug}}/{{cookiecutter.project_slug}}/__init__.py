@@ -7,6 +7,7 @@ __email__ = '{{ cookiecutter.email }}'
 __version__ = '{{ cookiecutter.version }}'
 
 
+import config
 from . import views
 
 
@@ -16,9 +17,9 @@ def setup_routes(app):
 
 def setup_static_routes(app):
     app.router.add_static('/static/',
-                          path=PROJECT_ROOT / 'static',
+                          path=config.PROJECT_ROOT / 'static',
                           name='static')
     app.router.add_static('/node_modules/',
-                          path=PROJECT_ROOT / 'node_modules',
+                          path=config.PROJECT_ROOT / 'node_modules',
                           name='node_modules')
 
