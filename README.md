@@ -6,13 +6,13 @@ hosted on [Heroku](https://www.heroku.com).
 
 ### Features
 
-* Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
-* Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.7, 3.4, 3.5, 3.6
-* Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
-* Bumpversion_: Pre-configured version bumping with a single command
-* Auto-release to PyPI_ when you push a new tag to master (optional)
-* Command line interface using Click (optional)
+* Testing with [py.test](https://docs.pytest.org/en/latest/).
+* Continuous integration with Travis.
+* Template rendering with [Jinja2](http://jinja.pocoo.org/).
+* JS packages management with [npm](https://www.npmjs.com/).
+* CSS Framework using [siimple](https://siimple.juanes.xyz/documentation/).
+* Command line interface using [Click](http://click.pocoo.org/6/) (_optional_).
+
 
 ### Quickstart
 
@@ -34,7 +34,6 @@ Then:
 * Add the repo to your [Travis-CI]( http://travis-ci.org/) account (_optionally_).
 * Install the requirements into a virtualenv (`pipenv install`).
 * Deploy project with `git push heroku:master`.
-
 
 
 ### Customization
